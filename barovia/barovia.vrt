@@ -1,0 +1,108 @@
+<VRTDataset rasterXSize="7200" rasterYSize="4800">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs"],AUTHORITY["EPSG","3857"]]</SRS>
+  <GeoTransform>  0.0000000000000000e+00,  8.0000000000000002e-03,  0.0000000000000000e+00,  8.6400000000000006e+01,  0.0000000000000000e+00, -1.8000000000000002e-02</GeoTransform>
+  <Metadata>
+    <MDI key="XML_com.adobe.xmp">&lt;x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP Core 5.4.0"&gt;
+   &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"&gt;
+      &lt;rdf:Description rdf:about=""
+            xmlns:tiff="http://ns.adobe.com/tiff/1.0/"
+            xmlns:exif="http://ns.adobe.com/exif/1.0/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"&gt;
+         &lt;tiff:ResolutionUnit&gt;2&lt;/tiff:ResolutionUnit&gt;
+         &lt;tiff:Compression&gt;5&lt;/tiff:Compression&gt;
+         &lt;tiff:XResolution&gt;200&lt;/tiff:XResolution&gt;
+         &lt;tiff:Orientation&gt;1&lt;/tiff:Orientation&gt;
+         &lt;tiff:YResolution&gt;200&lt;/tiff:YResolution&gt;
+         &lt;exif:PixelXDimension&gt;7200&lt;/exif:PixelXDimension&gt;
+         &lt;exif:ColorSpace&gt;1&lt;/exif:ColorSpace&gt;
+         &lt;exif:PixelYDimension&gt;4800&lt;/exif:PixelYDimension&gt;
+         &lt;dc:subject&gt;
+            &lt;rdf:Bag/&gt;
+         &lt;/dc:subject&gt;
+         &lt;xmp:ModifyDate&gt;2016-11-28T23:11:27&lt;/xmp:ModifyDate&gt;
+         &lt;xmp:CreatorTool&gt;Pixelmator 3.6&lt;/xmp:CreatorTool&gt;
+      &lt;/rdf:Description&gt;
+   &lt;/rdf:RDF&gt;
+&lt;/x:xmpmeta&gt;
+</MDI>
+  </Metadata>
+  <Metadata domain="IMAGE_STRUCTURE">
+    <MDI key="INTERLEAVE">PIXEL</MDI>
+  </Metadata>
+  <Metadata domain="xml:XMP" format="xml">
+    <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP Core 5.4.0">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <rdf:Description rdf:about="" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xmp="http://ns.adobe.com/xap/1.0/">
+          <tiff:ResolutionUnit>2</tiff:ResolutionUnit>
+          <tiff:Compression>5</tiff:Compression>
+          <tiff:XResolution>200</tiff:XResolution>
+          <tiff:Orientation>1</tiff:Orientation>
+          <tiff:YResolution>200</tiff:YResolution>
+          <exif:PixelXDimension>7200</exif:PixelXDimension>
+          <exif:ColorSpace>1</exif:ColorSpace>
+          <exif:PixelYDimension>4800</exif:PixelYDimension>
+          <dc:subject>
+            <rdf:Bag />
+          </dc:subject>
+          <xmp:ModifyDate>2016-11-28T23:11:27</xmp:ModifyDate>
+          <xmp:CreatorTool>Pixelmator 3.6</xmp:CreatorTool>
+        </rdf:Description>
+      </rdf:RDF>
+    </x:xmpmeta>
+  </Metadata>
+  <VRTRasterBand dataType="Byte" band="1" blockXSize="7200" blockYSize="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">243</MDI>
+      <MDI key="STATISTICS_MEAN">153.31489484127</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">66.087431221415</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <ColorInterp>Red</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/Users/simon/Downloads/barovia.png</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="7200" RasterYSize="4800" DataType="Byte" BlockXSize="7200" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="7200" ySize="4800" />
+      <DstRect xOff="0" yOff="0" xSize="7200" ySize="4800" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2" blockXSize="7200" blockYSize="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">233</MDI>
+      <MDI key="STATISTICS_MEAN">126.21383333333</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">60.830312135578</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <ColorInterp>Green</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/Users/simon/Downloads/barovia.png</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="7200" RasterYSize="4800" DataType="Byte" BlockXSize="7200" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="7200" ySize="4800" />
+      <DstRect xOff="0" yOff="0" xSize="7200" ySize="4800" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3" blockXSize="7200" blockYSize="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">219</MDI>
+      <MDI key="STATISTICS_MEAN">85.084736111111</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">53.987161910409</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <ColorInterp>Blue</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">/Users/simon/Downloads/barovia.png</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="7200" RasterYSize="4800" DataType="Byte" BlockXSize="7200" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="7200" ySize="4800" />
+      <DstRect xOff="0" yOff="0" xSize="7200" ySize="4800" />
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>
