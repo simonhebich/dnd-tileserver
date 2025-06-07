@@ -3,8 +3,8 @@
       <Title>barovia.vrt</Title>
       <Abstract></Abstract>
       <SRS>EPSG:3857</SRS>
-      <BoundingBox minx="0.00000000000000" miny="0.00043418572066" maxx="0.00052102286479" maxy="0.00078153429717"/>
-      <Origin x="0.00000000000000" y="0.00043418572066"/>
+      <BoundingBox minx="0.00000000000000" miny="0.00043119133638" maxx="0.00051742960365" maxy="0.00077614440547"/>
+      <Origin x="0.00000000000000" y="0.00043119133638"/>
       <TileFormat width="256" height="256" mime-type="image/png" extension="png"/>
       <TileSets profile="mercator">
         <TileSet href="0" units-per-pixel="156543.03390000000945" order="0"/>
